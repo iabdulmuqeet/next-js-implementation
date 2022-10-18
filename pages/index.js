@@ -12,10 +12,16 @@ export default function Home() {
   return (
    <div>
     <h1>HomePage</h1>
-    <h1><Link href='/products'>Products</Link></h1>
-    <h1><Link href='/docs'>Docs</Link></h1>
+    <h1><Link href='/products'><a>Products</a></Link></h1>
+    <h1><Link href='/docs'><a>Docs</a></Link></h1>
+    <h1><Link href='/users'><a>Users</a></Link></h1>
+    <h1><Link href='/posts'><a>Posts</a></Link></h1>
 
     <button onClick={handleClick}>Place Order</button>
    </div>
   )
 }
+
+
+
+

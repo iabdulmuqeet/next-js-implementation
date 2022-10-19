@@ -16,6 +16,7 @@ export default function Home() {
     <h1><Link href='/docs'><a>Docs</a></Link></h1>
     <h1><Link href='/users'><a>Users</a></Link></h1>
     <h1><Link href='/posts'><a>Posts</a></Link></h1>
+    <h1><Link href='/news'><a>News</a></Link></h1>
 
     <button onClick={handleClick}>Place Order</button>
    </div>
